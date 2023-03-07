@@ -34,17 +34,33 @@
 
 .title {
 	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
 	text-transform: uppercase;
-	letter-spacing: 1.85px;
 	font-size: clamp(3rem, 6vw, 6rem);
 	text-align: center;
 
 }
 
+.section-title {
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.btn-outline-purple {
+	border: 1px solid var(--purple2);
+	border-color: var(--purple);
+	color: var(--purple);
+}
+
+.btn-outline-purple:hover {
+	background-color: var(--purple);
+	color: var(--light);
+}
 
 /* ---------- Cover Page Navigation */
 #welcome {
-	overflow: hidden;
+	overflow: auto;
 	background-color: rgb(10, 10, 10);
 	height: 100vh;
 }
@@ -133,20 +149,17 @@ a.dropdown-item {
 }
 
 /* ------------ About */
-#about {
-	padding-top: 30px;
-	background-color: var(--light-grey);
-	height: 650px;
-	background-color: var(--light);
-	min-height: 100vh;
+p.lead {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.85;
 }
 
-.card>img {
-	width: 200px;
-	height: 100%;
-	border-radius: 50%;
+img#portfolio-img {
+	max-width: 100%;
+	height: auto;
+	width: 300px;
 }
-
 /* --------------- Skills */
 
 #skills {

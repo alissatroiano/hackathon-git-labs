@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#welcome">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -44,7 +44,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
-                    <li class="nav-item dropup">
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item dropup">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">Projects</a>
                         <ul class="dropdown-menu">
@@ -53,7 +59,7 @@
                             <li><a class="dropdown-item" href="#">Hackathons</a></li>
                             <li><a class="dropdown-item" href="#">Open-Source</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
                 <ul class="navbar-nav d-flex ms-auto text-light list-group list-group-horizontal">
                     <li class="nav-item">
@@ -120,32 +126,45 @@
             </div>
         </div>
     </div>
+<!-- 
+<section class="px-4 pt-5 my-5 text-center border-bottom" id="about">
+    <h1 class="display-4 fw-bold">Centered screenshot</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="assets/images/portrait2.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image">
+      </div>
+    </div>
+</section> -->
 
-    <section class="about-wrapper" id="about">
-        <div class="container-fluid about">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="display-2 text-center pb-3 pb-md-5">ABOUT</h1>
-                </div>
-            </div>
-            <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-12 col-md-6">
-                    <div class="card">
-                        <img src="assets/images/alissa.png" class="card-img-top text-center" alt="alissa" />
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section class="about my-0 mx-auto p-5" id="about">
+    <div class="container shadow-lg col-xxl-8 px-4 py-5" id="about">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-5">
+        <img src="assets/images/portrait2.jpg" class="d-block my-0 mx-auto img-fluid" alt="about me" loading="lazy" id="portfolio-img">
+      </div>
+      <div class="col-lg-7">
+        <h1 class="display-3 fw-light lh-1 mb-3 section-title">ABOUT ME</h1>
+        <p class="lead my-lg-5">A creative, results-driven full-stack software developer with experience participating in the full software development life-cycle, from planning to launch. Comfortable in Frontend and Backend development, I'm passionate about developing robust, full-stack applications that solve business needs.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-outline-purple btn-lg px-4">Resume</button>
+          </div>
+      </div>
+    </div>
+    </div>
+    </div>
+ </section>
 
-    <section class="skills" id="skills">
-        <div class="container">
+    <section class="container-fluid skills" id="skills">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 mt-5 pt-3">
                 <h1 class="display-1 title mt-3 mt-md-5 py-3">SKILLS</h1>
             </div>
         </div>
@@ -369,9 +388,9 @@
 
 </defs>
         </svg>
-        </div>
 
     </section>
+
 
     <script src="assets/js/script.js" type="text/javascript"></script>
     <!--Bootstrap Scripts Load-->
